@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora - Saída 4-20mA</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Logo -->
+    <div class="logo">
+        <img src="ico_4-20ma.png" alt="Logo">
+    </div>
+
+    <!-- Tela Principal -->
+    <div class="container">
+        <h1>Calculadora - Saída 4-20mA</h1>
+        <div class="input-group">
+            <label for="multimetro">Valor do Multímetro (mA):</label>
+            <input type="number" id="multimetro" placeholder="Ex: 12">
+        </div>
+        <div class="input-group">
+            <label for="fundoEscala">Fundo de Escala:</label>
+            <input type="number" id="fundoEscala" placeholder="Ex: 100">
+        </div>
+        <button id="calcular">Calcular</button>
+        <div class="resultado">
+            <h2>Resultado:</h2>
+            <p id="resultadoValor">0</p>
+        </div>
+        <!-- Botão de Modo Noturno -->
+        <button id="modoNoturno">Modo Noturno Desativado</button>
+        <!-- Botão para a Calculadora de Fator K -->
+        <a href="fator-k.html" class="btn-fator-k">Calculadora - Fator K</a>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Vector Serviços LTDA. Todos os direitos reservados.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
