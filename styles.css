@@ -84,10 +84,29 @@ button {
     cursor: pointer;
     margin-top: 10px;
     width: 100%;
+    transition: background-color 0.3s;
 }
 
 button:hover {
     background-color: #0056b3;
+}
+
+/* Estilo do botão "Calcular" quando está no modo "Limpar" */
+button#calcular.limpar {
+    background-color: #ff4444;
+}
+
+button#calcular.limpar:hover {
+    background-color: #cc0000;
+}
+
+/* Estilo do botão "Calcular Fator K" quando está no modo "Limpar" */
+button#calcularFatorK.limpar {
+    background-color: #ff4444;
+}
+
+button#calcularFatorK.limpar:hover {
+    background-color: #cc0000;
 }
 
 .resultado {
